@@ -1,0 +1,23 @@
+.form-search {
+    position: relative;
+}
+
+.form-search label {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    color: var(--bs-light);
+}
+
+.form-search input {
+    padding: 0.25rem 1rem;
+    color: var(--bs-light);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-search input[type=text]:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,19 @@
+/* ___________App___________ */
+.App-logo {
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+a:hover {
+  text-decoration: none !important;
+}

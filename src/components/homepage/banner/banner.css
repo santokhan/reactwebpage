@@ -1,0 +1,45 @@
+.banner {
+    background-image: url("/src/logo.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: var(--bs-dark);
+}
+
+.banner .banner-title {
+    font-size: calc(1rem - 0.25vw);
+}
+
+.banner .big-font-react {
+    font-size: calc(3.5rem - 0.25vw);
+    font-weight: bolder;
+    color: var(--react-color);
+}
+
+.banner .big-font-react~p {
+    padding: 1rem 0.5rem;
+    color: var(--bs-light);
+    font-size: 2rem;
+    font-weight: 250;
+}
+
+.banner .btn-react {
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+    color: var(--bs-dark);
+    background: var(--react-color);
+}
+
+.banner .btn-react:hover {
+    background: var(--react-color);
+    mix-blend-mode: hard-light;
+}
+
+.banner .btn-react:focus {
+    animation: btn-shadow 0.1s ease-in;
+    transition-delay: 0.1s;
+    box-shadow: 0 0 0 4px var(--react-color-opacity);
+}

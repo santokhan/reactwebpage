@@ -1,0 +1,41 @@
+.nav-bar {
+    position: fixed;
+    background-color: #1f2329;
+    z-index: 1000;
+}
+
+.logo {
+    color: var(--react-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.light-font {
+    font-weight: 200;
+    font-size: calc(1rem + 0.125vw);
+}
+
+.light-font:hover {
+    color: var(--react-color);
+}
+
+.anchor-lg-box {
+    overflow: hidden;
+}
+
+.fa-external-link-alt {
+    margin: 0 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}

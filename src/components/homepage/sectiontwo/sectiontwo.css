@@ -1,0 +1,25 @@
+.section-two .code-editor {
+    color: var(--bs-light);
+    background-color: var(--bs-dark);
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0;
+    overflow: auto;
+}
+
+.section-two .code-editor .code {
+    background-color: var(--bs-dark);
+    width: 70%;
+}
+
+.section-two .code-editor .title {
+    color: rgb(141, 141, 141);
+    margin: 0;
+}
+
+.section-two .code-editor .result {
+    position: relative;
+    width: 30%;
+    color: var(--bs-dark);
+    background: var(--bs-light);
+}
